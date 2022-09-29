@@ -4,4 +4,4 @@ python:
   - "3.9"
   
 script:
-- python -m unittest TestTriangle
+- python -m unittest TestTriangl
