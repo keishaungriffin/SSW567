@@ -1,5 +1,3 @@
-on:
-  push:
-    branches:
-      - master
-      - 'mona/octocat'
+language: python
+python:
+  - "3.10"
