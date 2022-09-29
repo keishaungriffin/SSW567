@@ -1,1 +1,5 @@
-.travis.yml
+on:
+  push:
+    branches:
+      - master
+      - 'mona/octocat'
