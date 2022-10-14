@@ -1,10 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Updated Jan 21, 2018
-The primary goal of this file is to demonstrate a simple unittest implementation
 
-@author: jrr
-@author: rk
 """
 import sys
 import unittest
@@ -66,7 +62,7 @@ if __name__ == '__main__':
     unittest.main()
     
     
-"""
+
 #Output Testing results to txt file    
 def main(out = sys.stderr, verbosity = 2):
     loader = unittest.TestLoader()
@@ -75,6 +71,6 @@ def main(out = sys.stderr, verbosity = 2):
     unittest.TextTestRunner(out, verbosity = verbosity).run(suite)
       
 if __name__ == '__main__':
-    with open('testing.txt', 'w') as f:
+    with open('testing_final.txt', 'w') as f:
         main(f)
-"""
+
